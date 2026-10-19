@@ -42,7 +42,7 @@ A `vercel.json` tartalmazza a beállításokat, a biztonsági fejléceket és a 
 
 Szerkesztés után indítsd újra az `npm run dev` parancsot, vagy futtasd a buildet. Vercelen az összekapcsolt production ágra küldött változás automatikusan újratelepül.
 
-Ha megvan az App Store termékoldala, a `content/site.json` `appStoreUrl` mezőjébe írd a teljes `https://apps.apple.com/...` címet. A fő gomb letöltési linkre vált; addig a próbafeladatra mutat, megjelenés előtti jelzéssel.
+A hivatalos [App Store-termékoldal](https://apps.apple.com/hu/app/kutyajo-matek/id6821633239?l=hu) a `content/site.json` `appStoreUrl` mezőjében van beállítva. A főoldal „Letöltés az App Store-ból” gombja ide mutat. Ha később változik a cím, ezt a mezőt frissítsd.
 
 ## App Store-adatok
 
